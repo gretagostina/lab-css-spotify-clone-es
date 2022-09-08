@@ -1,8 +1,186 @@
-/*
-Colors:
+html {
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+
+.text {
+    color: #1A1A1A;
+}
+.green {
+    color: #1AB16A;
+}
+.white { 
+    color: #FFF;
+}
+header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+header nav{
+    position: fixed;
+    right: 52px;
+    top: 10px;
+}
+
+header ul{
+    display: flex;
+}
+header ul li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+header img{
+    height: 50px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+
+#head-image {
+
+    background-image: url("../images/landing.jpg");
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    font-size: 30px;
+}
+
+#head-image p{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+#caracteristics .grupo{
+    	display: flex;
+        margin: 0 auto;
+        text-align: center;
+        
+}
+
+#caracteristics .grupo div {
+    width: 33%;
+}
+
+.grupo div img{
+    height:70px;
+}
+
+#caracteristics h2 {
+    text-align: center;
+}
+
+#bottom {
+    background-color: #1AB16A;
+}
+
+#bottom .bottom-group {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+#bottom h2 {
+    text-decoration: underline;
+}
+
+#bottom p {
+    width: 200px;
+}
+
+#bottom .bottom-group div {
+    width: 33%;
+}
+
+#bottom .logoredondo img {
+    width: 100px;
+    padding-left: 50%;
+    margin-left: -50px;
+    margin-top: 170px;
+}
+#bottom .kanye img {
+    width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    #caracteristics .grupo {
+          display: block;
+    }
+    #caracteristics .grupo div {
+      width: 100%;
+    }
+    #head-image p{
+      width: 75%;    
+    }
+    #bottom .bottom-group {
+        display: block;
+    }
+    #bottom .bottom-group div {
+        width: 100%;
+    }
+    #bottom .logoredondo img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #bottom .kanye {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
-*/
+<style>
+	#columnas .grupo{
+    	display: flex;
+    }
+    @media screen and (max-width: 600px) {
+      #columnas .grupo {
+        	display: block;
+            text-align: center;
+      }
+	}
+</style>*/
